@@ -11,7 +11,7 @@ from django.urls import NoReverseMatch, reverse
 from django.utils import six
 from django.utils.encoding import force_text
 from django.utils.functional import Promise
-
+#some changes in here
 
 def render_to_response(template_name, context=None, content_type=None, status=None, using=None):
     """
